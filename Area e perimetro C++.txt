@@ -1,0 +1,39 @@
+#include <iostream>
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<limits.h>
+#include<ctype.h>
+#include<time.h>
+#include<stdbool.h>
+#include<locale.h>
+
+
+using namespace std;
+
+int main()
+
+	
+{	
+	setlocale(LC_ALL, "Portuguese");
+	cout<< " Calcule o perímetro da área de uma circunferência de Raio [R]: ";
+	cout<<endl;
+	int R;
+	float perim;
+	float area;
+	float pi;
+	pi = 3.14159;
+	cout<< " Digite o valor do Raio: ";
+	cout<<endl;
+	cin>> R;
+	perim = 2*pi*R;
+	cout<< " A área da circunferência será de: ";
+	area = pi*R*R;
+	cout<<area;
+	cout<<endl;
+	cout<< " O perímetro da circunferência será de: "<<perim;
+	
+	
+    return 0;
+}
